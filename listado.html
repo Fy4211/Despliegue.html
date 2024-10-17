@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Listado de Herramientas Frontend y Backend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1E90FF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Listado de Herramientas Frontend y Backend</h1>
+        <p>Explora las principales herramientas utilizadas en el desarrollo web moderno</p>
+    </header>
+
+    <nav>
+        <a href="#frontend">Herramientas Frontend</a>
+        <a href="#backend">Herramientas Backend</a>
+    </nav>
+
+    <section id="frontend">
+        <h2>Herramientas Frontend</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>HTML5</h3>
+                <p>El estándar básico para estructurar el contenido web, permitiendo la creación de páginas dinámicas y accesibles.</p>
+            </div>
+            <div class="card">
+                <h3>CSS3</h3>
+                <p>Lenguaje de diseño utilizado para describir la presentación de un documento escrito en HTML, incluyendo colores, diseños y fuentes.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Lenguaje de programación que permite la creación de contenido dinámico, interactivo y funciones complejas en el navegador.</p>
+            </div>
+            <div class="card">
+                <h3>React.js</h3>
+                <p>Biblioteca JavaScript utilizada para construir interfaces de usuario interactivas y reutilizables, centradas en el desarrollo de SPA (Single Page Applications).</p>
+            </div>
+            <div class="card">
+                <h3>Vue.js</h3>
+                <p>Framework JavaScript progresivo que se utiliza para construir interfaces de usuario interactivas y aplicaciones web dinámicas.</p>
+            </div>
+            <div class="card">
+                <h3>Bootstrap</h3>
+                <p>Un framework CSS para el desarrollo rápido de sitios web responsivos y móviles, con plantillas de diseño y componentes predefinidos.</p>
+            </div>
+            <div class="card">
+                <h3>Tailwind CSS</h3>
+                <p>Un framework de CSS que proporciona clases de utilidad para construir interfaces de usuario personalizadas de forma rápida y eficiente.</p>
+            </div>
+            <div class="card">
+                <h3>Angular</h3>
+                <p>Framework basado en TypeScript para la creación de aplicaciones web robustas y escalables, con un enfoque en la arquitectura modular.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="backend">
+        <h2>Herramientas Backend</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>Node.js</h3>
+                <p>Entorno de ejecución para JavaScript en el servidor, que permite crear aplicaciones escalables y de alto rendimiento.</p>
+            </div>
+            <div class="card">
+                <h3>Express.js</h3>
+                <p>Framework minimalista de Node.js para la creación de aplicaciones web y APIs robustas y rápidas.</p>
+            </div>
+            <div class="card">
+                <h3>PHP</h3>
+                <p>Lenguaje de programación ampliamente utilizado para el desarrollo de aplicaciones web dinámicas y gestión de bases de datos.</p>
+            </div>
+            <div class="card">
+                <h3>Python (Django, Flask)</h3>
+                <p>Lenguaje de programación versátil utilizado en el backend con frameworks como Django y Flask para la creación de aplicaciones web rápidas y seguras.</p>
+            </div>
+            <div class="card">
+                <h3>Ruby on Rails</h3>
+                <p>Framework de desarrollo web escrito en Ruby, que permite la creación rápida de aplicaciones mediante la convención sobre la configuración.</p>
+            </div>
+            <div class="card">
+                <h3>Java (Spring)</h3>
+                <p>Lenguaje de programación ampliamente utilizado para el desarrollo de aplicaciones empresariales, con frameworks como Spring para crear sistemas escalables y seguros.</p>
+            </div>
+            <div class="card">
+                <h3>MySQL</h3>
+                <p>Un sistema de gestión de bases de datos relacional, utilizado para almacenar y gestionar datos de aplicaciones web.</p>
+            </div>
+            <div class="card">
+                <h3>MongoDB</h3>
+                <p>Base de datos NoSQL que permite almacenar grandes volúmenes de datos no estructurados o semiestructurados, utilizada en aplicaciones modernas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Herramientas Web | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
